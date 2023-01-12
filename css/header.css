@@ -28,17 +28,13 @@
 }
 
 .separador {
+  display: flex;
+  flex-wrap: wrap;
   width: 1200px;
   height: 5px;
   border-radius: 4px;
   background: #cccccc;
   margin: auto;
-}
-
-@media (max-width: 1200px) {
-  .separador {
-    display: none;
-  }
 }
 
 @media (max-width: 800px) {
