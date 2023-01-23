@@ -99,7 +99,7 @@
 }
 
 .futuro {
-  padding: 40px;
+  padding: 20px;
   background: #666666;
   border-radius: 4px;
   margin-bottom: 40px;
@@ -141,10 +141,21 @@
   .futuros-projetos {
     font-size: 1.75rem;
   }
+  .futuro-lista {
+    margin: 0px;
+    gap: 40px;
+  }
 }
 
 @media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+  .futuro-lista {
+    margin: 0px;
+    gap: 40px;
+  }
+  .futuro-lista li {
+    font-size: 1rem;
   }
 }
